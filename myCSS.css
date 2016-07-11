@@ -4,7 +4,12 @@ body{
 
 }
 
+IMG.paddingLogo{
+	padding-right: 60px;
+}
+
 #a1:link, #a1:visited {
+	font-size: 80%;
 	float: center;
     background-color: white;
     color: grey;
@@ -16,13 +21,81 @@ body{
 }
 
 #a1:hover, #a1:active {
-    background-color: #71EBA5;
+    background-color: #30c3a6;
+    color: white;
+    font-weight: bold;	
 }
 
 
 #centerHead{ 
+	padding-top: 50px;
 	float :center;
-	padding-left: 100px;
+	padding-left: -100px;
 	text-align: center;
 	box-shadow: 0 7px 6px -6px #999;
+
+}
+
+#firstBlock{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+	float :center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	width: 550px;
+	transform: translate(-50%,0%);
+	left: 50%;
+	position: absolute;
+}
+
+#bigTitle{
+	font-size: 250%;
+}
+
+#textEdit{
+	font-size: 130%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#articleBackground{
+	height: 400px;
+	background: #30c3a6;
+	position: relative;
+}
+
+#a2:link, #a2:visited {
+	font-size: 80%;
+	float: center;
+    background-color: #414242;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#a2:hover, #a2:active {
+    background-color: black;
+    font-weight: bold;	
+}
+
+#secondBlock{
+	margin-top:5%;
+}
+
+#editAboutUs{
+	text-align: center;
+	font-size: 180%;
+	font-family: "Lucida Console", Monaco, monospace;
+	border-bottom: 3px solid #9DA19F; 
+    line-height: 0.0em;
+    margin: 10px 0 20px; 
+    background:#fff; 
+
+}
+#editSpan { 
+    background:#fff; 
+    padding:500px 20px; 
 }
