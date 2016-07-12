@@ -122,14 +122,15 @@ IMG.paddingLogo{
 }
 
 #photoBlock{
-	padding-left: 15%;
+	padding-left: 12%;
 	float: left;
 	display: block;
-	width: 33%px;
+	width: 20%;
 
 }
 
 #article2Background{
+	border: 1px solid #30c3a6;
 	height: 800px;
 	background: #30c3a6;
 	position: relative;
@@ -151,11 +152,69 @@ footer{
     text-align: center; 
     text-decoration: none;
     display: inline-block;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #a3:hover, #a3:active {
 	float: right;
     background-color: rgb(35,52,69);
     font-weight: bold;	
+}
+
+
+#redBackground{
+	background: rgb(232,79,64);
+	border: 1px solid rgb(232,79,64);
+	text-align: center;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	position: relative;
+	float: center;
+	font-size: 130%;
+	padding-bottom: 50px;
+
+
+
+}
+
+#formBackground{
+	font-weight: bold;
+	display: inline-block;
+	color: darkgrey;
+	width: 50%;
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+
+
+#a4:link, #a4:visited {
+	box-sizing: content-box;
+	width: 234px;
+	margin-top:15px;
+	float: right;
+	font-size: 80%;
+    background-color: rgb(26,188,156);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#a4:hover, #a4:active {
+	float: right;
+    background-color: rgb(18,131,108);
+    font-weight: bold;	
+}
+
+
+.wideInput{
+	padding-left:0;
+padding-top:0;
+padding-bottom:0.4em;
+padding-right: 0.4em;
 }
