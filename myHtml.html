@@ -14,17 +14,20 @@
         <script>
             function myFunction(){
                 x = document.getElementById("input1");
-                if (x.value.length<2)
+                if (x.value.length<2){
+                    alert("Invalid name");
                     throw new Error("Empty name");
-                else alert(x.value);
-                x = document.getElementById("input2");
-                if (x.value.search("@") === -1 || x.value.search(".") === -1)
+                    return;
+                }
+                y = document.getElementById("input2");
+                if (y.value.search("@") === -1 || y.value.search(".") === -1){
+                    alert("Invalid e-mail");
                     throw new Error("Invalid e-mail adress");
-                else alert(x.value); 
-                x = document.getElementById("input3");
-                alert(x.value); 
-                x = document.getElementById("input4");
-                alert(x.value); 
+                    return;
+                }
+                z = document.getElementById("input3");
+                t = document.getElementById("input4");
+                alert(x.value+"\n"+y.value+"\n"+z.value+"\n"+t.value);
             }
         </script>
 
