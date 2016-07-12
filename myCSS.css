@@ -5,7 +5,7 @@ body{
 }
 
 IMG.paddingLogo{
-	padding-right: 60px;
+	padding-right: 5%;
 }
 
 #a1:link, #a1:visited {
@@ -28,9 +28,8 @@ IMG.paddingLogo{
 
 
 #centerHead{ 
-	padding-top: 50px;
+	padding-top: 4%;
 	float :center;
-	padding-left: -100px;
 	text-align: center;
 	box-shadow: 0 7px 6px -6px #999;
 
@@ -43,7 +42,8 @@ IMG.paddingLogo{
 	float :center;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
-	width: 550px;
+	width: 40%;
+	height: 1000px-40%;
 	transform: translate(-50%,0%);
 	left: 50%;
 	position: absolute;
@@ -51,11 +51,17 @@ IMG.paddingLogo{
 
 #bigTitle{
 	font-size: 250%;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	padding-top: 5%;
+	color: white;
 }
 
 #textEdit{
 	font-size: 130%;
-	font-family: "Courier New", Courier, monospace;
+	color: white;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #articleBackground{
@@ -93,9 +99,63 @@ IMG.paddingLogo{
     line-height: 0.0em;
     margin: 10px 0 20px; 
     background:#fff; 
+    width: 60%;
+    float: center;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+	
 
 }
 #editSpan { 
     background:#fff; 
-    padding:500px 20px; 
+    padding:0px 20px; 
+}
+
+#aboutUsTextEdit{
+	font-family: "Lucida Console", Monaco, monospace;
+	color: grey;
+	font-size: 70%;
+	padding-top: 10px;
+	text-align: center;	
+	float: center;
+}
+
+#photoBlock{
+	padding-left: 15%;
+	float: left;
+	display: block;
+	width: 33%px;
+
+}
+
+#article2Background{
+	height: 800px;
+	background: #30c3a6;
+	position: relative;
+}
+
+footer{
+	background-color: rgb(35,52,69);
+	height: 70px;
+
+}
+
+#a3:link, #a3:visited {
+	margin-top:20px;
+	float: right;
+	font-size: 80%;
+    background-color: rgb(35,52,69);
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#a3:hover, #a3:active {
+	float: right;
+    background-color: rgb(35,52,69);
+    font-weight: bold;	
 }
