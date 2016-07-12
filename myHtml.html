@@ -10,6 +10,25 @@
     		<a href="#article2Background" id="a1"> PHOTOS </a>
     		<a href="#redBackground" id="a1"> CONTACT US </a>
     	</div>
+
+        <script>
+            function myFunction(){
+                x = document.getElementById("input1");
+                if (x.value.length<2)
+                    throw new Error("Empty name");
+                else alert(x.value);
+                x = document.getElementById("input2");
+                if (x.value.search("@") === -1 || x.value.search(".") === -1)
+                    throw new Error("Invalid e-mail adress");
+                else alert(x.value); 
+                x = document.getElementById("input3");
+                alert(x.value); 
+                x = document.getElementById("input4");
+                alert(x.value); 
+            }
+        </script>
+
+
    	</head>
 
     <body>
@@ -47,13 +66,13 @@
 
     		<div id="photoBlock">
     			<div>
-    				<img src="C:\Users\nilies\Desktop\test\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
+    				<img src="C:\Users\nilies\Desktop\test\images\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
     				<p id="bigTitle" style="font-size: 150%; padding-right: 10%"> TITLE1 </p>
     				<p id="textEdit" style=" font-size: 100%; padding-right: 10%"> text1 trala lalal lal lalala lala </p>
   				</div>
 
     			<div>
-                    <img src="C:\Users\nilies\Desktop\test\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
+                    <img src="C:\Users\nilies\Desktop\test\images\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
                     <p id="bigTitle" style="font-size: 150%; padding-right: 10%"> TITLE1 </p>
                     <p id="textEdit" style=" font-size: 100%; padding-right: 10%"> text1 trala lalal lal lalala lala </p>
                 </div>
@@ -61,13 +80,13 @@
 
             <div id="photoBlock">
                 <div>
-                    <img src="C:\Users\nilies\Desktop\test\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
+                    <img src="C:\Users\nilies\Desktop\test\images\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
                     <p id="bigTitle" style="font-size: 150%; padding-right: 10%"> TITLE1 </p>
                     <p id="textEdit" style=" font-size: 100%; padding-right: 10%"> text1 trala lalal lal lalala lala </p>
                 </div>
 
                 <div>
-                    <img src="C:\Users\nilies\Desktop\test\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
+                    <img src="C:\Users\nilies\Desktop\test\images\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
                     <p id="bigTitle" style="font-size: 150%; padding-right: 10%"> TITLE1 </p>
                     <p id="textEdit" style=" font-size: 100%; padding-right: 10%"> text1 trala lalal lal lalala lala </p>
                 </div>
@@ -75,13 +94,13 @@
 
            <div id="photoBlock">
                 <div>
-                    <img src="C:\Users\nilies\Desktop\test\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
+                    <img src="C:\Users\nilies\Desktop\test\images\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
                     <p id="bigTitle" style="font-size: 150%; padding-right: 10%"> TITLE1 </p>
                     <p id="textEdit" style=" font-size: 100%; padding-right: 10%"> text1 trala lalal lal lalala lala </p>
                 </div>
 
                 <div>
-                    <img src="C:\Users\nilies\Desktop\test\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
+                    <img src="C:\Users\nilies\Desktop\test\images\1.jpg" alt="ooook" style="width:180px;height: 110px; border: 10px solid white; ">
                     <p id="bigTitle" style="font-size: 150%; padding-right: 10%"> TITLE1 </p>
                     <p id="textEdit" style=" font-size: 100%; padding-right: 10%"> text1 trala lalal lal lalala lala </p>
                 </div>
@@ -102,17 +121,17 @@
 
 
                 <form style="float: left; padding-left: 7%">
-                    <div>
-                        Your name*<br> <input type="text" name="FirstName" style="width:230px; height: 30px"><br>
-                        Your e-mail*<br> <input type="text" name="LastName" style="width:230px; height: 30px"><br>
-                       Contact phone<br> <input type="text" name="LastName" style="width:230px; height: 30px"><br>
-                       <a id="a4" href="http://www.google.ro"> Send message </a>
+                    <div >
+                        Your name*<br> <input id="input1" type="text" name="FirstName" style="width:230px; height: 30px"><br>
+                        Your e-mail*<br> <input id="input2" type="mail" name="LastName" style="width:230px; height: 30px"><br>
+                       Contact phone<br> <input type="tel" id="input3" name="LastName" style="width:230px; height: 30px"><br>
+                       <button type="button" value="Send information" name="Send" onclick="myFunction();"> Ello </button>
                    </div>
                 </form>
     
              <form style="float: right; padding-right: 7%">
-                 <div>
-                        Message <br> <input class="wideInput" name="Message" style="width:230px;height:220px"><br>
+                 <div >
+                        Message <br> <textarea id="input4" name="Text1" cols="40" rows="10"></textarea><br>
                     </div>
               </form >   
             </div>
@@ -123,9 +142,9 @@
 
     <footer>
         <a id="a3" href="http://www.google.ro"> Internship Endava 2016 </a>
-        <img src="C:\Users\nilies\Desktop\test\googleplus.png"  style="width:32px;height:32px;margin-top:20px;float: right">
-        <img src="C:\Users\nilies\Desktop\test\Twitter_logo_blue_48.png"  style="width:32px;height:32px;margin-top:20px;float: right">
-        <img src="C:\Users\nilies\Desktop\test\facebook.png"  style="width:32px;height:32px;margin-top:20px; float: right">    
+        <img src="C:\Users\nilies\Desktop\test\images\googleplus.png"  style="width:32px;height:32px;margin-top:20px;float: right">
+        <img src="C:\Users\nilies\Desktop\test\images\Twitter_logo_blue_48.png"  style="width:32px;height:32px;margin-top:20px;float: right">
+        <img src="C:\Users\nilies\Desktop\test\images\facebook.png"  style="width:32px;height:32px;margin-top:20px; float: right">    
     </footer>
 
 </html>
