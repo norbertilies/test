@@ -1,7 +1,8 @@
 
 
-body{
-
+*{
+	font-family: "Courier New", Courier, monospace;
+	text-align: center; 
 }
 
 IMG.paddingLogo{
@@ -9,15 +10,14 @@ IMG.paddingLogo{
 }
 
 #a1:link, #a1:visited {
-	font-size: 80%;
+	font-size: 15px;
 	float: center;
     background-color: white;
     color: grey;
     padding: 14px 25px;
-    text-align: center; 
     text-decoration: none;
     display: inline-block;
-    font-family: "Courier New", Courier, monospace;
+
 }
 
 #a1:hover, #a1:active {
@@ -30,17 +30,13 @@ IMG.paddingLogo{
 #centerHead{ 
 	padding-top: 4%;
 	float :center;
-	text-align: center;
 	box-shadow: 0 7px 6px -6px #999;
-
 }
 
 #firstBlock{
 	padding-top: 60px;
 	padding-bottom: 60px;
-	text-align: center;
 	float :center;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
 	width: 40%;
 	height: 1000px-40%;
@@ -50,18 +46,14 @@ IMG.paddingLogo{
 }
 
 #bigTitle{
-	font-size: 250%;
-	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
+	font-size: 36px;
 	padding-top: 5%;
 	color: white;
 }
 
 #textEdit{
-	font-size: 130%;
+	font-size: 20px;
 	color: white;
-	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #articleBackground{
@@ -76,10 +68,8 @@ IMG.paddingLogo{
     background-color: #414242;
     color: white;
     padding: 14px 25px;
-    text-align: center; 
     text-decoration: none;
     display: inline-block;
-    font-family: "Courier New", Courier, monospace;
 }
 
 #a2:hover, #a2:active {
@@ -92,13 +82,10 @@ IMG.paddingLogo{
 }
 
 #editAboutUs{
-	text-align: center;
 	font-size: 180%;
-	font-family: "Lucida Console", Monaco, monospace;
 	border-bottom: 2px solid #9DA19F; 
     line-height: 0.0em;
     margin: 10px 0 20px; 
-    background:#fff; 
     width: 60%;
     float: center;
     left: 50%;
@@ -113,20 +100,38 @@ IMG.paddingLogo{
 }
 
 #aboutUsTextEdit{
-	font-family: "Lucida Console", Monaco, monospace;
 	color: grey;
 	font-size: 70%;
 	padding-top: 10px;
-	text-align: center;	
 	float: center;
 }
 
 #photoBlock{
-	padding-left: 12%;
+	margin-top: 100px;
+	padding-left: 10%;
 	float: left;
 	display: block;
 	width: 20%;
 
+}
+
+
+#photosTitle{
+	background-color: #30c3a6;
+	font-size: 180%;
+	border-bottom: 2px solid white; 
+    line-height: 0.0em;
+    margin: 10px 0 20px; 
+    float: center;
+    left: 50%;
+    transform: translate(-50%,0%);
+    position: absolute;
+}
+
+#photoDetails{
+	width:180px;
+	height: 110px;
+	border: 10px solid white; 
 }
 
 #article2Background{
@@ -149,10 +154,8 @@ footer{
     background-color: rgb(35,52,69);
     color: white;
     padding: 14px 25px;
-    text-align: center; 
     text-decoration: none;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #a3:hover, #a3:active {
@@ -165,9 +168,7 @@ footer{
 #redBackground{
 	background: rgb(232,79,64);
 	border: 1px solid rgb(232,79,64);
-	text-align: center;
 	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	position: relative;
 	float: center;
@@ -182,7 +183,7 @@ footer{
 	font-weight: bold;
 	display: inline-block;
 	color: darkgrey;
-	width: 50%;
+	width: 70%;
 	background-color: white;
 	padding-bottom: 20px;
 
@@ -199,10 +200,8 @@ footer{
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center; 
     text-decoration: none;
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #a4:hover, #a4:active {
@@ -214,7 +213,7 @@ footer{
 
 .wideInput{
 	padding-left:0;
-padding-top:0;
-padding-bottom:0.4em;
-padding-right: 0.4em;
+	padding-top:0;
+	padding-bottom:0.4em;
+	padding-right: 0.4em;
 }
