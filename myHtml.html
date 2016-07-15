@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="myCSS.css">
 	<head>
 		<div id="centerHead">	
-    		<img class="paddingLogo" src="http://www.endava.com/~/media/Common/logo.ashx" alt="Logo" style="width:120px;height:40px;">
+    		<img class="paddingLogo" src="http://www.endava.com/~/media/Common/logo.ashx" alt="Logo">
     		<a href="#centerHead" id="a1"> HOME </a>
     		<a href="#secondBlock" id="a1"> ABOUT </a>
     		<a href="#article2Background" id="a1"> PHOTOS </a>
@@ -62,13 +62,13 @@
 
 
 
-        <div id="photosTitle" style="background-color: #30c3a6">
+        <div id="editAboutUs">
             <span id="editSpan" style="background-color: #30c3a6"> PHOTOS </span>
         </div>
 
         
 
-        <div id="article2Background" style="margin-top:25px">
+        <div id="article2Background">
     		<div id="photoBlock">
     			<div>
     				<img src="C:\Users\nilies\Desktop\test\images\1.jpg" id="photoDetails">
@@ -118,23 +118,23 @@
             </h1>
 
             <div id="formBackground">
-                <h1 style="font-size:200%; color: grey">
+                <h1 id="bigTitle" style="color: grey">
                     Endava 2016!
                 </h1>
 
                 <br><br>
 
 
-                <form style="float: left; padding-left: 7%">
-                    <div >
-                        Your name*<br> <input id="input1" type="text" name="FirstName" style="width:230px; height: 30px"><br>
-                        Your e-mail*<br> <input id="input2" type="mail" name="LastName" style="width:230px; height: 30px"><br>
-                       Contact phone<br> <input type="tel" id="input3" name="LastName" style="width:230px; height: 30px"><br>
-                       <button type="button" value="Send information" name="Send" onclick="myFunction();"> Ello </button>
+                <form id="editForm" style="padding-bottom:200px">
+                    <div>
+                        Your name*<br> <input id="input1" type="text" name="FirstName"><br>
+                        Your e-mail*<br> <input id="input2" type="mail" name="LastName" ><br>
+                        Contact phone<br> <input type="tel" id="input3" name="LastName" ><br>
+                       <button type="button" value="Send information" name="Send" onclick="myFunction();"> Submit </button>
                    </div>
                 </form>
     
-             <form style="float: right; padding-right: 7%">
+             <form  id="editForm">
                  <div >
                         Message <br> <textarea id="input4" name="Text1" cols="40" rows="10"></textarea><br>
                     </div>
