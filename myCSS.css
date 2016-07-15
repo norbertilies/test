@@ -85,7 +85,7 @@ IMG.paddingLogo{
 }
 
 #editAboutUs{
-	font-size: 180%;
+	font-size: 30px;
 	border-bottom: 2px solid #9DA19F; 
     line-height: 0.0em;
     margin: 10px 0 20px; 
@@ -94,9 +94,8 @@ IMG.paddingLogo{
     left: 50%;
     transform: translate(-50%,0%);
     position: absolute;
-	
-
 }
+
 #editSpan { 
     background:#fff; 
     padding:0px 20px; 
@@ -120,15 +119,22 @@ IMG.paddingLogo{
 
 
 #photosTitle{
-	background-color: #30c3a6;
-	font-size: 180%;
-	border-bottom: 2px solid black; 
+	font-weight: bold;
+	color: white;
+	font-size: 35px;
+	border-bottom: 2px solid white; 
     line-height: 0.0em;
     margin: 10px 0 20px; 
+    width: 60%;
     float: center;
     left: 50%;
     transform: translate(-50%,0%);
     position: absolute;
+	margin-top:30px;
+}
+#photosSpan { 
+    background:red; 
+    padding:0px 20px; 
 }
 
 #photoDetails{
